@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: $parimary-font;
+  background-color: $dark-color;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  &:visited,
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+ul {
+  li {
+    list-style: none;
+  }
+}

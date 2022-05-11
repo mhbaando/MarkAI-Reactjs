@@ -1,0 +1,27 @@
+// flex
+@mixin flex($jc, $ai, $fd: row) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+  flex-direction: $fd;
+}
+
+// font
+@mixin poppins($fz, $fw, $fc, $lh: 150%) {
+  font-family: $parimary-font;
+  font-size: $fz;
+  font-weight: $fw;
+  color: $fc;
+  line-height: lh;
+}
+
+@mixin hover-scale($scale, $time, $opacity) {
+  opacity: 1;
+  transform: scale(1);
+  transition: all $time ease-in-out;
+
+  &:hover {
+    opacity: $opacity;
+    transform: scale($scale);
+  }
+}
