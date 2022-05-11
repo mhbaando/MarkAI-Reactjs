@@ -31,4 +31,4 @@ please also check my social networks with this tag`mhbaando`
 
 ## SCREENSHOT OF THE WEBSITE
 
-![](src/Assets/HomePage.png)
+![](src/assets/Cover.png)
