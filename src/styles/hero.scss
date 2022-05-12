@@ -1,0 +1,11 @@
+.mk__hero {
+  position: relative;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(right, #eee 0%, #333 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

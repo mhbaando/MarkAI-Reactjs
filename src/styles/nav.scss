@@ -1,9 +1,10 @@
 .mk__nav {
   @include flex(space-between, center);
 
-  max-width: 1350px;
   margin: 0 auto;
   padding: 0 3rem;
+  max-width: 1350px;
+
   @media (max-width: 550px) {
     padding: 1.875rem 1.5rem 0;
   }
@@ -17,6 +18,7 @@
 
   &--menus {
     z-index: 1;
+
     @media (max-width: 1000px) {
       display: none;
     }
@@ -37,7 +39,7 @@
         }
 
         &::after {
-          content: '';
+          content: "";
           position: absolute;
 
           left: 0;
@@ -70,21 +72,31 @@
       display: none;
     }
   }
+  .btn-border {
+    margin-right: 10px;
+  }
 
-  // menu icon
-  svg {
-    color: white;
+  div {
+    // menu icon
 
-    font-size: 35px;
-    margin-left: 20px;
+    @media (min-width: 1000px) {
+      display: none;
+    }
 
-    opacity: 1;
-    cursor: pointer;
+    svg {
+      color: white;
+      transform-origin: center;
 
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
+      font-size: 35px;
 
-    @include hover-scale(0.98, 0.3s, 0.7);
+      opacity: 1;
+      cursor: pointer;
+
+      transform: scale(1);
+      transition: all 0.3s ease-in-out;
+
+      @include hover-scale(0.98, 0.3s, 0.7);
+    }
   }
 }
 
@@ -117,7 +129,7 @@
 // the purple radius
 .mk__nav--redRadius {
   top: -450%;
-  right: -30%;
+  right: -20%;
 
   background: radial-gradient(
     64.74% 64.74% at 69.85% 24.66%,

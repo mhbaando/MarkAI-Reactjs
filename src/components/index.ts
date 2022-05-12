@@ -1,4 +1,8 @@
 // export all our components this file
 
-//navigatin
-export { default as Nav } from './Nav/Nav';
+// Desktop & Mobile navigatin
+export { default as Nav } from "./Nav/Nav";
+export { default as MobileNav } from "./Nav/MobileNav";
+
+// hero
+export { default as Hero } from "./Hero/Hero";
