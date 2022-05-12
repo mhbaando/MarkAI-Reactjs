@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Nav, Hero, MobileNav } from "../components/index";
+import { Nav, Hero, MobileNav, Features } from "../components/index";
 import { MenuContext } from "../context/menu.context";
 const Home: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,6 +14,7 @@ const Home: React.FC = () => {
       </nav>
       <main>
         <Hero />
+        <Features />
       </main>
     </>
   );

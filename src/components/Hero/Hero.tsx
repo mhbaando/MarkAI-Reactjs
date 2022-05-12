@@ -80,7 +80,7 @@ const Hero: React.FC = () => {
           <motion.p
             initial={{ opacity: 0, y: -12 }}
             animate={{ opacity: 1, y: 0 }}
-            whileHover={{ opacity: [0, 1], y: [-40, 0] }}
+            whileInView={{ opacity: [0, 1], y: [-40, 0] }}
           >
             Make your marketing completely based on Artificial Intelligence.
           </motion.p>
