@@ -26,7 +26,7 @@
   background-color: transparent;
 
   &::after {
-    content: '';
+    content: "";
     inset: 0;
 
     padding: 2px;
@@ -45,4 +45,9 @@
     -webkit-mask-composite: xor;
     mask-composite: exclude;
   }
+}
+
+// hide overflow
+.overflow-hidden {
+  overflow: hidden;
 }
