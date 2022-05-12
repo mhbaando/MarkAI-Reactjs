@@ -25,3 +25,14 @@
     transform: scale($scale);
   }
 }
+@mixin gradient {
+  background: linear-gradient(
+    90deg,
+    $cyan-color 0%,
+    $purble-color 46.87%,
+    $pink-color 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
