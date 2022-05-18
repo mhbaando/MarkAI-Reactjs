@@ -16,3 +16,5 @@ export { default as Partners } from "./Partners/Partners";
 export { default as Interface } from "./Interface/Interface";
 // web ai
 export { default as WebAi } from "./WebAi/WebAi";
+// cta
+export { default as CTA } from "./CTA/Cta";
