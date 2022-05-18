@@ -6,6 +6,7 @@ import {
   Features,
   Partners,
   Interface,
+  WebAi,
 } from "@/components/index";
 import { MenuContext } from "@/context/menu.context";
 
@@ -25,6 +26,7 @@ const Home: React.FC = () => {
         <Features />
         <Partners />
         <Interface />
+        <WebAi />
       </main>
     </>
   );

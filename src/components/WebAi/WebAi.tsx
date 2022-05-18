@@ -1,11 +1,20 @@
 import React from "react";
-import "@/styles/interface.scss";
+import "@/styles/webAi.scss";
 import images from "@/constants";
 import { motion } from "framer-motion";
-const Interface: React.FC = () => {
+
+const WebAi: React.FC = () => {
   return (
-    <section className="mk__interface">
-      <div className="mk__interface--info">
+    <section className="mk__webAi">
+      <motion.div
+        initial={{ opacity: 0, y: 12 }}
+        animate={{ opacity: 1, y: 0 }}
+        whileInView={{ opacity: [0, 1], y: [12, 0] }}
+        className="mk__webAi--image"
+      >
+        <img src={images.webAi} alt="Custom webAi" />
+      </motion.div>
+      <div className="mk__webAi--info">
         <motion.div
           initial={{ opacity: 0, y: -12 }}
           animate={{ opacity: 1, y: 0 }}
@@ -18,8 +27,8 @@ const Interface: React.FC = () => {
           whileInView={{ opacity: [0, 1], y: [-12, 0] }}
           className="text"
         >
-          <p className="subheading">What Is</p>
-          <h3>Custom Interface</h3>
+          <p className="subheading">You can maintain your</p>
+          <h3>Website with Ai</h3>
           <p className="desc">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae quam
             sit scelerisque enim in sed diam nec, blandit. Amet tellus massa sed
@@ -29,16 +38,8 @@ const Interface: React.FC = () => {
           <button className="btn btn-border">Learn More...</button>
         </motion.div>
       </div>
-      <motion.div
-        initial={{ opacity: 0, y: 12 }}
-        animate={{ opacity: 1, y: 0 }}
-        whileInView={{ opacity: [0, 1], y: [12, 0] }}
-        className="mk__interface--image"
-      >
-        <img src={images.Interface} alt="Custom Interface" />
-      </motion.div>
     </section>
   );
 };
 
-export default Interface;
+export default WebAi;

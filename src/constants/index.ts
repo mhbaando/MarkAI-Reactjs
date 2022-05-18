@@ -13,6 +13,7 @@ import WrtingPartner from "@/assets/writingpaper.png";
 import PlayButton from "@/assets/playButton.png";
 
 import Interface from "@/assets/interface.png";
+import webAi from "@/assets/websiteWithAi.png";
 
 const images = {
   Logo,
@@ -33,6 +34,7 @@ const images = {
 
   //interface
   Interface,
+  webAi,
 };
 
 export default images;

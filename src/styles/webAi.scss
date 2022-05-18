@@ -1,4 +1,4 @@
-.mk__interface {
+.mk__webAi {
   @include flex(space-between, center);
 
   max-width: 1350px;
@@ -63,7 +63,7 @@
       flex: 0;
 
       width: 100%;
-      margin-top: 100px;
+      margin: 300px 0 100px;
 
       @include flex(center, center);
     }

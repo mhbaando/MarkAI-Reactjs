@@ -14,3 +14,5 @@ export { default as Features } from "./Features/Features";
 export { default as Partners } from "./Partners/Partners";
 // custom interface
 export { default as Interface } from "./Interface/Interface";
+// web ai
+export { default as WebAi } from "./WebAi/WebAi";
