@@ -1,7 +1,11 @@
 .mk__features {
-  padding: 0 3rem;
   max-width: 1350px;
   margin: 100px auto 0;
+
+  padding: 0 4rem;
+  @media (max-width: 550px) {
+    padding: 0rem 1.5rem;
+  }
 
   h1 {
     font-size: 50px;
@@ -16,6 +20,7 @@
       font-size: 27px;
     }
   }
+
   p {
     @include poppins(18px, 400, $white-color);
     max-width: 500px;

@@ -1,0 +1,69 @@
+.mk__parners {
+  max-width: 1350px;
+  margin: 100px auto 0;
+
+  padding: 0 4rem;
+  @media (max-width: 550px) {
+    padding: 0rem 1.5rem;
+  }
+}
+
+.mk__parners--vedio {
+  @include flex(center, center);
+
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  @include border-gradient(2px, 51px);
+  @media (max-width: 752px) {
+    @include border-gradient(2px, 20px);
+  }
+
+  .bacground {
+    width: 100%;
+    height: auto;
+  }
+
+  .playbutton {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+
+    @media (max-width: 752px) {
+      width: 100px;
+      height: 100px;
+    }
+
+    @media (max-width: 552px) {
+      width: 80px;
+      height: 80px;
+    }
+    cursor: pointer;
+
+    // hover animation
+    @include hover-scale(0.98, 0.3s, 0.7);
+    z-index: 2;
+  }
+}
+
+// vedio player
+.video-player {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+
+  @include flex(center, center);
+}
+
+.overlay {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  cursor: pointer;
+}

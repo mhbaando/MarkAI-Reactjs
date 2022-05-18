@@ -1,0 +1,54 @@
+.mk__heading {
+  @include flex(space-between, center, column);
+
+  // sub heading above the titile
+  .subheading {
+    @include poppins(25px, 400, $white-color, 200%);
+
+    @media (max-width: 500px) {
+      font-size: 20px;
+    }
+  }
+
+  // heading / titile
+  .heading {
+    @include gradient();
+
+    font-size: 60px;
+    line-height: 150%;
+
+    @media (max-width: 800px) {
+      font-size: 50px;
+    }
+
+    @media (max-width: 650px) {
+      font-size: 32px;
+    }
+
+    @media (max-width: 550px) {
+      font-size: 25px;
+    }
+  }
+
+  // descirption paragparh
+  .desc {
+    @include poppins(17px, 400, $white-color, 200%);
+
+    max-width: 600px;
+    text-align: center;
+
+    margin: 0 0 50px;
+
+    @media (max-width: 815px) {
+      max-width: 500px;
+    }
+
+    @media (max-width: 649px) {
+      max-width: 350px;
+    }
+
+    @media (max-width: 500px) {
+      font-size: 16px;
+    }
+  }
+}

@@ -2,7 +2,7 @@
   position: relative;
   z-index: 1;
 
-  padding: 0 3rem;
+  padding: 0 4rem;
   @media (max-width: 550px) {
     padding: 0rem 1.5rem;
   }
@@ -88,7 +88,11 @@
   align-items: center;
 
   gap: 40px;
-  padding: 0 3rem;
+
+  padding: 0 4rem;
+  @media (max-width: 550px) {
+    padding: 0rem 1.5rem;
+  }
 
   max-width: 1300px;
   margin: 100px auto 0;
@@ -101,15 +105,15 @@
   &--img {
     width: 100%;
     max-width: 500px;
+
     img {
       width: 100%;
     }
   }
 
   &--text {
-    // max-width: 600px;
     @include flex(flex-end, center);
-    // min-width: 450px;
+
     p {
       font-size: 45px;
       font-weight: 600;
