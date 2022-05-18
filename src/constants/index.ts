@@ -12,6 +12,8 @@ import FeatureAnlyze from "@/assets/featureanlysze.svg";
 import WrtingPartner from "@/assets/writingpaper.png";
 import PlayButton from "@/assets/playButton.png";
 
+import Interface from "@/assets/interface.png";
+
 const images = {
   Logo,
   Arrow,
@@ -28,6 +30,9 @@ const images = {
   // wiritin partner image
   WrtingPartner,
   PlayButton,
+
+  //interface
+  Interface,
 };
 
 export default images;

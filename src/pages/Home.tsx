@@ -1,5 +1,12 @@
 import React, { useState } from "react";
-import { Nav, Hero, MobileNav, Features, Partners } from "@/components/index";
+import {
+  Nav,
+  Hero,
+  MobileNav,
+  Features,
+  Partners,
+  Interface,
+} from "@/components/index";
 import { MenuContext } from "@/context/menu.context";
 
 const Home: React.FC = () => {
@@ -17,6 +24,7 @@ const Home: React.FC = () => {
         <Hero />
         <Features />
         <Partners />
+        <Interface />
       </main>
     </>
   );

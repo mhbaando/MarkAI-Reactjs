@@ -12,3 +12,5 @@ export { default as Hero } from "./Hero/Hero";
 export { default as Features } from "./Features/Features";
 // partners
 export { default as Partners } from "./Partners/Partners";
+// custom interface
+export { default as Interface } from "./Interface/Interface";
