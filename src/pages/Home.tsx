@@ -8,6 +8,7 @@ import {
   Interface,
   WebAi,
   CTA,
+  Testimonials,
 } from "@/components/index";
 import { MenuContext } from "@/context/menu.context";
 
@@ -29,6 +30,7 @@ const Home: React.FC = () => {
         <Interface />
         <WebAi />
         <CTA />
+        <Testimonials />
       </main>
     </>
   );

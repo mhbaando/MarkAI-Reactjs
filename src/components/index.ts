@@ -18,3 +18,5 @@ export { default as Interface } from "./Interface/Interface";
 export { default as WebAi } from "./WebAi/WebAi";
 // cta
 export { default as CTA } from "./CTA/Cta";
+// testimonials
+export { default as Testimonials } from "./Testimonials/Testimonials";

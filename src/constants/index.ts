@@ -15,6 +15,8 @@ import PlayButton from "@/assets/playButton.png";
 import Interface from "@/assets/interface.png";
 import webAi from "@/assets/websiteWithAi.png";
 
+import Person from "@/assets/person.png";
+
 const images = {
   Logo,
   Arrow,
@@ -35,6 +37,9 @@ const images = {
   //interface
   Interface,
   webAi,
+
+  // testimonials
+  Person,
 };
 
 export default images;
