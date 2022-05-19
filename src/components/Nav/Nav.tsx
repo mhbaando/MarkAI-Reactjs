@@ -1,10 +1,11 @@
 import React, { useContext } from "react";
 import menus from "./menus";
 import images from "../../constants";
-import "../../styles/nav.scss";
+import "@/styles/nav.scss";
 import { RiMenu3Fill, RiCloseFill } from "react-icons/ri";
-import { MenuContext } from "../../context/menu.context";
+import { MenuContext } from "@/context/menu.context";
 import { AnimatePresence, motion } from "framer-motion";
+
 // function reading the menu links
 export const menuLinks = () => {
   return menus.map((menu, index) => {
